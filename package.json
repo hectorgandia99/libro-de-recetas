@@ -1,0 +1,12 @@
+{
+  "name": "libro-de-recetas",
+  "version": "1.0.0",
+  "description": "Recetario de cocina personal: sitio estático generado desde archivos Markdown.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node serve.js",
+    "dev": "node build.js --watch"
+  },
+  "license": "MIT"
+}
