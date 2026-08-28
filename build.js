@@ -180,10 +180,6 @@ function stripMd(lines = []) {
     .trim();
 }
 
-function capitalize(s) {
-  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
-}
-
 function walkMarkdown(dir) {
   const out = [];
   if (!fs.existsSync(dir)) return out;
@@ -253,6 +249,23 @@ function splitIntro(body) {
   return { introLines: lines.slice(0, i), rest: lines.slice(i).join('\n') };
 }
 
+/** Como parseSections, pero conserva el texto original (con mayúsculas) de
+ *  cada encabezado en vez de devolverlo en minúsculas como clave. */
+function splitGuideSections(body) {
+  const sections = [];
+  let current = null;
+  for (const raw of body.split(/\r?\n/)) {
+    const m = raw.match(/^##\s+(.*)$/);
+    if (m) {
+      current = { heading: m[1].trim(), lines: [] };
+      sections.push(current);
+    } else if (current) {
+      current.lines.push(raw);
+    }
+  }
+  return sections;
+}
+
 function loadGuides() {
   const files = walkMarkdown(GUIDES_DIR);
   const guides = [];
@@ -273,9 +286,8 @@ function loadGuides() {
     }
 
     const { introLines, rest } = splitIntro(body);
-    const sectionsMap = parseSections(rest);
-    const sections = Object.entries(sectionsMap).map(([heading, lines]) => ({
-      heading: capitalize(heading),
+    const sections = splitGuideSections(rest).map(({ heading, lines }) => ({
+      heading,
       html: renderBlocks(lines),
       text: stripMd(lines),
     }));
