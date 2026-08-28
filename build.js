@@ -14,6 +14,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const RECIPES_DIR = path.join(ROOT, 'recetas');
+const GUIDES_DIR = path.join(ROOT, 'guias');
 const SRC_DIR = path.join(ROOT, 'src');
 const DIST = path.join(ROOT, 'dist');
 
@@ -169,6 +170,20 @@ function listItems(lines = []) {
     .map((l) => l.replace(/^[-*]\s+/, '').replace(/^\d+[.)]\s+/, ''));
 }
 
+/** Aplana un bloque Markdown a texto plano, para indexar en el buscador. */
+function stripMd(lines = []) {
+  return lines
+    .join(' ')
+    .replace(/[#*_`]/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function capitalize(s) {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+}
+
 function walkMarkdown(dir) {
   const out = [];
   if (!fs.existsSync(dir)) return out;
@@ -229,6 +244,59 @@ function loadRecipes() {
   return { recipes, problems };
 }
 
+/** Divide el cuerpo de una guía en introducción (texto antes del primer
+ *  encabezado `##`) y las secciones que le siguen (mismo formato libre). */
+function splitIntro(body) {
+  const lines = body.split(/\r?\n/);
+  let i = 0;
+  while (i < lines.length && !/^##\s+/.test(lines[i])) i++;
+  return { introLines: lines.slice(0, i), rest: lines.slice(i).join('\n') };
+}
+
+function loadGuides() {
+  const files = walkMarkdown(GUIDES_DIR);
+  const guides = [];
+  const problems = [];
+
+  for (const file of files) {
+    const rel = path.relative(GUIDES_DIR, file);
+    if (rel.includes(path.sep)) {
+      problems.push(`· ${path.relative(ROOT, file)}: las guías van directamente en guias/, sin subcarpetas.`);
+    }
+    const slug = path.basename(file, '.md');
+    const raw = fs.readFileSync(file, 'utf8');
+    const { data, body } = parseFrontmatter(raw);
+
+    if (!data.title) {
+      problems.push(`· ${path.relative(ROOT, file)}: falta "title" en el frontmatter.`);
+      continue;
+    }
+
+    const { introLines, rest } = splitIntro(body);
+    const sectionsMap = parseSections(rest);
+    const sections = Object.entries(sectionsMap).map(([heading, lines]) => ({
+      heading: capitalize(heading),
+      html: renderBlocks(lines),
+      text: stripMd(lines),
+    }));
+
+    guides.push({
+      slug,
+      title: data.title,
+      tags: Array.isArray(data.tags) ? data.tags : [],
+      prep_time: data.time ?? '',
+      difficulty: '',
+      introHtml: renderBlocks(introLines),
+      introText: stripMd(introLines),
+      sections,
+      url: `guias/${slug}/index.html`,
+    });
+  }
+
+  guides.sort((a, b) => a.title.localeCompare(b.title, 'es'));
+  return { guides, problems };
+}
+
 // ---------------------------------------------------------------------------
 // Plantillas HTML
 // ---------------------------------------------------------------------------
@@ -252,6 +320,7 @@ function layout({ title, prefix, body, bodyClass = '' }) {
   <a class="site-title" href="${prefix}index.html">El&nbsp;Recetario</a>
   <nav class="site-nav">
     ${CATEGORIES.map((c) => `<a href="${prefix}categorias/${c.slug}/index.html">${c.name}</a>`).join('')}
+    <a href="${prefix}guias/index.html">Guías</a>
   </nav>
   <form class="site-search" role="search" action="${prefix}buscar.html" method="get">
     <input type="search" name="q" placeholder="Buscar…" aria-label="Buscar recetas">
@@ -261,7 +330,7 @@ function layout({ title, prefix, body, bodyClass = '' }) {
 ${body}
 </main>
 <footer class="site-footer no-print">
-  <p>Recetario personal · añade recetas creando archivos <code>.md</code> en <code>recetas/</code></p>
+  <p>Recetario personal · añade recetas en <code>recetas/</code> y guías en <code>guias/</code></p>
 </footer>
 <script src="${prefix}assets/search-index.js"></script>
 <script src="${prefix}assets/app.js"></script>
@@ -286,7 +355,7 @@ function slugify(s) {
     .replace(/^-|-$/g, '');
 }
 
-function renderHome(recipes) {
+function renderHome(recipes, guides) {
   const total = recipes.length;
   const cards = CATEGORIES.map((c) => {
     const count = recipes.filter((r) => r.categorySlug === c.slug).length;
@@ -321,6 +390,18 @@ ${latest
   .map(
     (r) => `<li><a href="${r.url}"><span class="rl-title">${escapeHtml(r.title)}</span>
       <span class="rl-meta">${escapeHtml(r.category.name)}${r.prep_time ? ' · ' + escapeHtml(r.prep_time) : ''}</span></a></li>`
+  )
+  .join('\n')}
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Guías</h2>
+  <ul class="recipe-list">
+${guides
+  .map(
+    (g) => `<li><a href="${g.url}"><span class="rl-title">${escapeHtml(g.title)}</span>
+      <span class="rl-meta">${g.prep_time ? escapeHtml(g.prep_time) : ''}</span></a></li>`
   )
   .join('\n')}
   </ul>
@@ -397,6 +478,64 @@ function renderRecipe(r) {
   return layout({ title: `${r.title} · El Recetario`, prefix, body, bodyClass: 'page-recipe' });
 }
 
+function renderGuidesIndex(guides) {
+  const body = `
+<nav class="breadcrumb no-print"><a href="../index.html">Inicio</a> › <span>Guías</span></nav>
+<header class="page-head">
+  <p class="kicker">Guías</p>
+  <h1>Guías de cocina</h1>
+  <p class="lede">Técnicas y trucos que no son una receta en sí, pero que ayudan con muchas.</p>
+</header>
+${
+  guides.length
+    ? `<ul class="recipe-list recipe-list--full">
+${guides
+  .map(
+    (g) => `<li><a href="../${g.url}">
+      <span class="rl-title">${escapeHtml(g.title)}</span>
+      <span class="rl-meta">${g.prep_time ? escapeHtml(g.prep_time) : ''}</span>
+    </a></li>`
+  )
+  .join('\n')}
+</ul>`
+    : `<p class="empty">Aún no hay guías. Crea un archivo <code>.md</code> en <code>guias/</code>.</p>`
+}`;
+  return layout({ title: 'Guías · El Recetario', prefix: '../', body, bodyClass: 'page-guides' });
+}
+
+function renderGuide(g) {
+  const prefix = '../../';
+  const body = `
+<nav class="breadcrumb no-print">
+  <a href="${prefix}index.html">Inicio</a> ›
+  <a href="${prefix}guias/index.html">Guías</a> ›
+  <span>${escapeHtml(g.title)}</span>
+</nav>
+
+<article class="guide">
+  <header class="guide-head">
+    <p class="kicker">Guía</p>
+    <h1>${escapeHtml(g.title)}</h1>
+    <div class="guide-meta">${metaChips(g)}</div>
+    ${g.tags.length ? `<div class="tags no-print">${g.tags.map((t) => `<span class="tag">#${escapeHtml(t)}</span>`).join('')}</div>` : ''}
+    <button type="button" class="btn-print no-print" onclick="window.print()">Imprimir guía</button>
+  </header>
+
+  <div class="guide-body">
+    ${g.introHtml ? `<div class="prose">${g.introHtml}</div>` : ''}
+    ${g.sections
+      .map(
+        (s) => `<section>
+      <h2>${escapeHtml(s.heading)}</h2>
+      <div class="prose">${s.html}</div>
+    </section>`
+      )
+      .join('\n')}
+  </div>
+</article>`;
+  return layout({ title: `${g.title} · El Recetario`, prefix, body, bodyClass: 'page-guide' });
+}
+
 function renderSearchPage() {
   const body = `
 <header class="page-head">
@@ -428,17 +567,28 @@ function copyAssets() {
   }
 }
 
-function buildSearchIndex(recipes) {
-  const data = recipes.map((r) => ({
+function buildSearchIndex(recipes, guides) {
+  const recipeData = recipes.map((r) => ({
+    type: 'recipe',
     title: r.title,
     category: r.categorySlug,
     categoryName: r.category.name,
     url: r.url,
     prep_time: r.prep_time,
     difficulty: r.difficulty,
-    ingredients: r.ingredients,
+    searchText: r.ingredients.join(' '),
   }));
-  return `window.__RECIPES__ = ${JSON.stringify(data)};\n`;
+  const guideData = guides.map((g) => ({
+    type: 'guide',
+    title: g.title,
+    category: 'guias',
+    categoryName: 'Guía',
+    url: g.url,
+    prep_time: g.prep_time,
+    difficulty: '',
+    searchText: [g.introText, ...g.sections.map((s) => s.text)].filter(Boolean).join(' '),
+  }));
+  return `window.__RECIPES__ = ${JSON.stringify([...recipeData, ...guideData])};\n`;
 }
 
 function build() {
@@ -446,9 +596,11 @@ function build() {
   fs.rmSync(DIST, { recursive: true, force: true });
   fs.mkdirSync(DIST, { recursive: true });
 
-  const { recipes, problems } = loadRecipes();
+  const { recipes, problems: recipeProblems } = loadRecipes();
+  const { guides, problems: guideProblems } = loadGuides();
+  const problems = [...recipeProblems, ...guideProblems];
 
-  write(path.join(DIST, 'index.html'), renderHome(recipes));
+  write(path.join(DIST, 'index.html'), renderHome(recipes, guides));
   write(path.join(DIST, 'buscar.html'), renderSearchPage());
   for (const category of CATEGORIES) {
     write(path.join(DIST, 'categorias', category.slug, 'index.html'), renderCategory(category, recipes));
@@ -456,13 +608,17 @@ function build() {
   for (const r of recipes) {
     write(path.join(DIST, 'recetas', r.categorySlug, r.slug, 'index.html'), renderRecipe(r));
   }
+  write(path.join(DIST, 'guias', 'index.html'), renderGuidesIndex(guides));
+  for (const g of guides) {
+    write(path.join(DIST, 'guias', g.slug, 'index.html'), renderGuide(g));
+  }
 
   copyAssets();
-  write(path.join(DIST, 'assets', 'search-index.js'), buildSearchIndex(recipes));
+  write(path.join(DIST, 'assets', 'search-index.js'), buildSearchIndex(recipes, guides));
   write(path.join(DIST, '.nojekyll'), '');
 
   const ms = Date.now() - start;
-  console.log(`✓ ${recipes.length} recetas · ${CATEGORIES.length} categorías · ${ms} ms → dist/`);
+  console.log(`✓ ${recipes.length} recetas · ${guides.length} guías · ${CATEGORIES.length} categorías · ${ms} ms → dist/`);
   if (problems.length) {
     console.log('\n⚠ Avisos:');
     for (const p of problems) console.log('  ' + p);
@@ -471,7 +627,7 @@ function build() {
 
 function watch() {
   build();
-  console.log('\n👀 Observando recetas/ y src/ … (Ctrl+C para salir)');
+  console.log('\n👀 Observando recetas/, guias/ y src/ … (Ctrl+C para salir)');
   let timer = null;
   const trigger = () => {
     clearTimeout(timer);
@@ -483,7 +639,7 @@ function watch() {
       }
     }, 120);
   };
-  for (const dir of [RECIPES_DIR, SRC_DIR]) {
+  for (const dir of [RECIPES_DIR, GUIDES_DIR, SRC_DIR]) {
     if (fs.existsSync(dir)) fs.watch(dir, { recursive: true }, trigger);
   }
 }

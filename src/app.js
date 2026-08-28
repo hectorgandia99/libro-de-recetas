@@ -18,7 +18,7 @@
     var terms = q.split(/\s+/);
     return recipes
       .map(function (r) {
-        var haystack = norm(r.title + ' ' + r.categoryName + ' ' + (r.ingredients || []).join(' '));
+        var haystack = norm(r.title + ' ' + r.categoryName + ' ' + (r.searchText || ''));
         var titleHay = norm(r.title);
         var score = 0;
         for (var i = 0; i < terms.length; i++) {
@@ -44,7 +44,7 @@
       return;
     }
     status.textContent = results.length
-      ? results.length + (results.length === 1 ? ' receta encontrada' : ' recetas encontradas')
+      ? results.length + (results.length === 1 ? ' resultado encontrado' : ' resultados encontrados')
       : 'Sin resultados para “' + query + '”.';
     results.forEach(function (r) {
       var li = document.createElement('li');

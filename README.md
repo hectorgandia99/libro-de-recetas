@@ -1,9 +1,10 @@
 # El Recetario
 
 Un libro de recetas personal como página web. Cada receta es un archivo de texto
-(Markdown) dentro de `recetas/`. Un pequeño generador lee esos archivos y produce
-un sitio web estático en `dist/`, con portada, índice por categorías, buscador y
-una página por receta pensada también para imprimir.
+(Markdown) dentro de `recetas/`. También hay guías de cocina (técnicas y trucos
+que no son una receta en sí) en `guias/`. Un pequeño generador lee esos archivos
+y produce un sitio web estático en `dist/`, con portada, índice por categorías,
+buscador, y una página por receta o guía pensada también para imprimir.
 
 Sin base de datos, sin servidor, sin dependencias: solo necesitas **Node.js**
 (versión 18 o superior) para generar el sitio.
@@ -89,6 +90,39 @@ Si algo está mal (falta el `title`, la carpeta no es una categoría conocida, e
 
 ---
 
+## Cómo añadir una guía nueva
+
+1. Copia `plantilla-guia.md`.
+2. Guárdalo directamente dentro de `guias/` (sin subcarpetas — las guías no
+   tienen categorías, van todas en una lista).
+3. Ponle nombre en *kebab-case*, igual que el título:
+   `Cómo hacer un buen sofrito` → `como-hacer-un-buen-sofrito.md`.
+4. Rellena la cabecera y el cuerpo (ver formato abajo).
+5. Vuelve a ejecutar `node build.js` (o déjalo en modo `--watch`).
+
+La guía aparece automáticamente en `/guias/` y en el buscador.
+
+### Formato de una guía
+
+```markdown
+---
+title: "Nombre de la guía"
+tags: []                   # opcional
+time: "10 min"             # opcional, tiempo aproximado
+---
+
+Un párrafo de introducción.
+
+## Sección libre
+
+Las guías no tienen una estructura fija como las recetas: añade, quita o
+renombra los encabezados `##` que necesites.
+```
+
+Si falta el `title`, `node build.js` lo avisa por consola y sigue con el resto.
+
+---
+
 ## Cómo añadir una categoría nueva
 
 1. Abre `build.js` y añade una entrada al array `CATEGORIES` (arriba del todo):
@@ -122,7 +156,9 @@ subir el contenido de `dist/` tal cual.
 build.js              Generador: Markdown → HTML estático
 serve.js              Servidor local mínimo para previsualizar
 plantilla-receta.md   Plantilla para copiar al crear una receta
+plantilla-guia.md     Plantilla para copiar al crear una guía
 recetas/              Las recetas, una subcarpeta por categoría
+guias/                Las guías, todas juntas (sin subcarpetas)
 src/
   styles.css          Estilos del sitio
   app.js              Buscador (se ejecuta en el navegador)

@@ -142,7 +142,7 @@ main {
 .breadcrumb a { color: var(--ink-soft); }
 .breadcrumb a:hover { color: var(--accent); }
 
-.page-head, .recipe-head { margin-bottom: 2rem; }
+.page-head, .recipe-head, .guide-head { margin-bottom: 2rem; }
 
 /* ---------- Portada ---------- */
 
@@ -196,7 +196,7 @@ main {
 
 /* ---------- Página de receta ---------- */
 
-.recipe-meta {
+.recipe-meta, .guide-meta {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
@@ -231,14 +231,21 @@ main {
 }
 .btn-print:hover { background: var(--accent); }
 
-.recipe-body { margin-top: 2.5rem; }
-.recipe-body section { margin-bottom: 2.5rem; }
-.recipe-body h2 {
+.recipe-body, .guide-body { margin-top: 2.5rem; }
+.recipe-body section, .guide-body section { margin-bottom: 2.5rem; }
+.recipe-body h2, .guide-body h2 {
   font-size: 1.35rem;
   border-bottom: 2px solid var(--rule);
   padding-bottom: .3rem;
   margin-bottom: 1rem;
 }
+
+.guide-body > .prose { margin-bottom: 2.5rem; }
+
+.prose p { margin: 0 0 1rem; }
+.prose ul, .prose ol { margin: 0 0 1rem; padding-left: 1.25rem; }
+.prose li { margin-bottom: .4rem; }
+.prose p:last-child, .prose ul:last-child, .prose ol:last-child { margin-bottom: 0; }
 
 .recipe-ingredients ul { list-style: none; padding: 0; margin: 0; }
 .recipe-ingredients li {
@@ -327,9 +334,9 @@ main {
   body { background: #fff; color: #000; font-size: 11pt; }
   main { max-width: none; margin: 0; padding: 0; }
   a { color: #000; text-decoration: none; }
-  .recipe-head { margin-bottom: 1rem; }
-  .recipe-body { margin-top: 1rem; }
-  .recipe-body section { margin-bottom: 1rem; break-inside: avoid; }
+  .recipe-head, .guide-head { margin-bottom: 1rem; }
+  .recipe-body, .guide-body { margin-top: 1rem; }
+  .recipe-body section, .guide-body section { margin-bottom: 1rem; break-inside: avoid; }
   .recipe-steps li, .recipe-ingredients li { break-inside: avoid; }
   .recipe-steps li::before { background: #000; color: #fff; }
   .recipe-notes { background: none; border-left: 2px solid #000; }
