@@ -39,6 +39,7 @@ Si prefieres los comandos de npm: `npm run build`, `npm run serve`, `npm run dev
    ```
    recetas/
      desayunos/
+     snacks/
      entrantes/
      principales/
      postres/
@@ -138,12 +139,20 @@ Si falta el `title`, `node build.js` lo avisa por consola y sigue con el resto.
 
 ## Publicar en GitHub Pages
 
-Este repo incluye un flujo de GitHub Actions (`.github/workflows/deploy.yml`) que
-genera el sitio y lo publica en cada `push` a `main`.
+El sitio está publicado en **https://hectorgandia99.github.io/libro-de-recetas/**.
 
-1. Sube el proyecto a un repositorio de GitHub.
-2. En **Settings → Pages**, en *Build and deployment*, elige **GitHub Actions**.
-3. Cada vez que subas cambios, el sitio se actualiza solo.
+Un flujo de GitHub Actions (`.github/workflows/deploy.yml`) genera el sitio y lo
+publica en cada `push` a `main`. Para publicar una receta nueva:
+
+```bash
+npm run publish      # git add -A + commit + push  → online en ~1 min
+```
+
+O el flujo git de siempre (`git add`, `git commit`, `git push`). No hace falta
+ejecutar `node build.js`: lo hace GitHub Actions.
+
+Si algún día montas el repo de cero: súbelo a GitHub y en **Settings → Pages**,
+en *Build and deployment*, elige **GitHub Actions**.
 
 Para desplegarlo en otro sitio (Netlify, un hosting propio, etc.), basta con
 subir el contenido de `dist/` tal cual.

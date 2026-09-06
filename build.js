@@ -22,6 +22,7 @@ const DIST = path.join(ROOT, 'dist');
  *  y crea la subcarpeta correspondiente dentro de recetas/. */
 const CATEGORIES = [
   { slug: 'desayunos', name: 'Desayunos', blurb: 'Para empezar el día.' },
+  { slug: 'snacks', name: 'Snacks', blurb: 'Merienda, pre-entreno y pre-cama.' },
   { slug: 'entrantes', name: 'Entrantes', blurb: 'Primeros y picoteo.' },
   { slug: 'principales', name: 'Principales', blurb: 'El plato fuerte.' },
   { slug: 'postres', name: 'Postres', blurb: 'El final feliz.' },

@@ -5,3 +5,6 @@ Thumbs.db
 # Salida del generador. Coméntala si quieres versionar dist/ para GitHub Pages
 # sirviendo desde una rama, en lugar de usar GitHub Actions.
 dist/
+
+# Datos personales — nunca publicar (el repo es público)
+*.xlsx

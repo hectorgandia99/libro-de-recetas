@@ -1,6 +1,6 @@
 ---
 title: "Nombre de la receta"
-category: "postres"        # desayunos / entrantes / principales / postres / bebidas / salsas
+category: "postres"        # desayunos / snacks / entrantes / principales / postres / bebidas / salsas
 servings: 4                # número de raciones
 prep_time: "20 min"        # tiempo de preparación
 difficulty: "fácil"        # fácil / media / difícil

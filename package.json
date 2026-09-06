@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node build.js",
     "serve": "node serve.js",
-    "dev": "node build.js --watch"
+    "dev": "node build.js --watch",
+    "publish": "git add -A && git commit -m \"Actualizar recetas\" && git push"
   },
   "license": "MIT"
 }
