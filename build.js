@@ -10,6 +10,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
@@ -314,6 +315,10 @@ function loadGuides() {
 // Plantillas HTML
 // ---------------------------------------------------------------------------
 
+/** Versión de los assets (?v=…) para invalidar la caché del navegador en
+ *  cada despliegue que cambie el CSS/JS. La fija build(). */
+let ASSET_VER = 'dev';
+
 function layout({ title, prefix, body, bodyClass = '' }) {
   return `<!doctype html>
 <html lang="es">
@@ -325,7 +330,7 @@ function layout({ title, prefix, body, bodyClass = '' }) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="${prefix}assets/styles.css">
+<link rel="stylesheet" href="${prefix}assets/styles.css?v=${ASSET_VER}">
 </head>
 <body class="${bodyClass}" data-prefix="${prefix}">
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
@@ -345,8 +350,8 @@ ${body}
 <footer class="site-footer no-print">
   <p>Recetario personal · añade recetas en <code>recetas/</code> y guías en <code>guias/</code></p>
 </footer>
-<script src="${prefix}assets/search-index.js"></script>
-<script src="${prefix}assets/app.js"></script>
+<script src="${prefix}assets/search-index.js?v=${ASSET_VER}"></script>
+<script src="${prefix}assets/app.js?v=${ASSET_VER}"></script>
 </body>
 </html>`;
 }
@@ -633,6 +638,15 @@ function build() {
   const { guides, problems: guideProblems } = loadGuides();
   const problems = [...recipeProblems, ...guideProblems];
 
+  const searchIndex = buildSearchIndex(recipes, guides);
+  ASSET_VER = crypto
+    .createHash('sha1')
+    .update(fs.readFileSync(path.join(SRC_DIR, 'styles.css')))
+    .update(fs.readFileSync(path.join(SRC_DIR, 'app.js')))
+    .update(searchIndex)
+    .digest('hex')
+    .slice(0, 8);
+
   write(path.join(DIST, 'index.html'), renderHome(recipes, guides));
   write(path.join(DIST, 'buscar.html'), renderSearchPage());
   for (const category of CATEGORIES) {
@@ -647,7 +661,7 @@ function build() {
   }
 
   copyAssets();
-  write(path.join(DIST, 'assets', 'search-index.js'), buildSearchIndex(recipes, guides));
+  write(path.join(DIST, 'assets', 'search-index.js'), searchIndex);
   write(path.join(DIST, '.nojekyll'), '');
 
   const ms = Date.now() - start;
