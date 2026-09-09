@@ -215,6 +215,28 @@ main {
 .chip--media { color: #8a6a1f; border-color: #e0cf9c; }
 .chip--dificil { color: var(--accent); border-color: #e0b3a5; }
 
+/* ---------- Filtro por dificultad (páginas de categoría) ---------- */
+
+.filter-bar { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.5rem 0; }
+.filter-btn {
+  font: inherit;
+  font-size: .82rem;
+  padding: .28rem .7rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.filter-btn:hover { border-color: var(--accent-soft); color: var(--ink); }
+.filter-btn[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.filter-btn:focus-visible { outline: 2px solid var(--accent-soft); outline-offset: 1px; }
+.filter-status { font-size: .9rem; color: var(--ink-soft); margin: .5rem 0 0; }
+
 .tags { margin-top: .75rem; display: flex; flex-wrap: wrap; gap: .4rem; }
 .tag { font-size: .8rem; color: var(--ink-soft); }
 

@@ -423,6 +423,24 @@ ${guides
   return layout({ title: 'El Recetario', prefix: '', body, bodyClass: 'page-home' });
 }
 
+const DIFFICULTIES = [
+  { slug: 'facil', label: 'Fácil' },
+  { slug: 'media', label: 'Media' },
+  { slug: 'dificil', label: 'Difícil' },
+];
+
+function filterBar(list) {
+  const present = new Set(list.map((r) => slugify(r.difficulty)).filter(Boolean));
+  const opts = DIFFICULTIES.filter((d) => present.has(d.slug));
+  if (opts.length < 2) return ''; // filtrar por una sola dificultad no aporta
+  const btn = (filter, label, pressed) =>
+    `<button type="button" class="filter-btn" data-filter="${filter}" aria-pressed="${pressed}">${label}</button>`;
+  return `<div class="filter-bar no-print" data-filter-bar>
+  ${btn('', 'Todas', 'true')}
+  ${opts.map((d) => btn(d.slug, d.label, 'false')).join('\n  ')}
+</div>`;
+}
+
 function renderCategory(category, recipes) {
   const list = recipes.filter((r) => r.categorySlug === category.slug);
   const body = `
@@ -434,16 +452,18 @@ function renderCategory(category, recipes) {
 </header>
 ${
   list.length
-    ? `<ul class="recipe-list recipe-list--full">
+    ? `${filterBar(list)}
+<ul class="recipe-list recipe-list--full" data-recipe-list>
 ${list
   .map(
-    (r) => `<li><a href="../../${r.url}">
+    (r) => `<li data-difficulty="${slugify(r.difficulty)}"><a href="../../${r.url}">
       <span class="rl-title">${escapeHtml(r.title)}</span>
       <span class="rl-meta">${[r.prep_time, r.difficulty].filter(Boolean).map(escapeHtml).join(' · ')}</span>
     </a></li>`
   )
   .join('\n')}
-</ul>`
+</ul>
+<p class="filter-status no-print" aria-live="polite" data-filter-status></p>`
     : `<p class="empty">Aún no hay recetas en esta categoría. Crea un archivo <code>.md</code> en <code>recetas/${category.slug}/</code>.</p>`
 }`;
   return layout({ title: `${category.name} · El Recetario`, prefix: '../../', body, bodyClass: 'page-category' });

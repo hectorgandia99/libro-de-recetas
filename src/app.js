@@ -77,4 +77,32 @@
     run();
     input.focus();
   }
+
+  // Filtro por dificultad en las páginas de categoría
+  var bar = document.querySelector('[data-filter-bar]');
+  var list = document.querySelector('[data-recipe-list]');
+  var filterStatus = document.querySelector('[data-filter-status]');
+  if (bar && list) {
+    bar.addEventListener('click', function (e) {
+      var btn = e.target.closest('.filter-btn');
+      if (!btn) return;
+      var filter = btn.getAttribute('data-filter');
+      bar.querySelectorAll('.filter-btn').forEach(function (b) {
+        b.setAttribute('aria-pressed', String(b === btn));
+      });
+      var visible = 0;
+      list.querySelectorAll('li').forEach(function (li) {
+        var hide = filter !== '' && li.getAttribute('data-difficulty') !== filter;
+        li.hidden = hide;
+        if (!hide) visible++;
+      });
+      if (filterStatus) {
+        filterStatus.textContent = !filter
+          ? ''
+          : visible
+          ? visible + (visible === 1 ? ' receta' : ' recetas')
+          : 'Sin recetas de esa dificultad.';
+      }
+    });
+  }
 })();
