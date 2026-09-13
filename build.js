@@ -26,6 +26,7 @@ const CATEGORIES = [
   { slug: 'snacks', name: 'Snacks', blurb: 'Merienda, pre-entreno y pre-cama.' },
   { slug: 'entrantes', name: 'Entrantes', blurb: 'Primeros y picoteo.' },
   { slug: 'principales', name: 'Principales', blurb: 'El plato fuerte.' },
+  { slug: 'sandwiches', name: 'Sándwiches', blurb: 'Fríos y calientes, para cualquier momento.' },
   { slug: 'postres', name: 'Postres', blurb: 'El final feliz.' },
   { slug: 'bebidas', name: 'Bebidas', blurb: 'Con y sin alcohol.' },
   { slug: 'salsas', name: 'Salsas', blurb: 'Acompañar y aliñar.' },
