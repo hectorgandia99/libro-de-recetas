@@ -9,9 +9,9 @@ tags: [pasta, italiana]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 260 g de espaguetis
 - 110 g de guanciale en cubos
-- 80 g de pecorino romano rallado
+- 100 g de pecorino romano rallado
 - Pimienta negra recién molida, abundante
 
 ## Pasos
@@ -24,8 +24,8 @@ tags: [pasta, italiana]
 
 ## Notas
 
-Es básicamente un cacio e pepe con guanciale, así que se mantiene bastante fiel al original — solo se sube un poco el pecorino para compensar algo de proteína.
+Es básicamente un cacio e pepe con guanciale, así que se mantiene bastante fiel al original — se sube el pecorino para compensar proteína y algo la pasta para el carbohidrato.
 
-Información nutricional aproximada por ración: **896 kcal · 33 g proteína · 48 g grasa · 79 g carbohidrato**. Es un plato bastante graso: encaja mejor como comida en un día de entreno en el que el resto de comidas sean algo más ligeras en grasa (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~1118 kcal · 45 g proteína · 54 g grasa · 109 g carbohidrato**. Es un plato bastante graso por naturaleza (guanciale + pecorino): la grasa se queda bien por encima del objetivo a propósito, compénsalo con el resto del día más ligero en grasa.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

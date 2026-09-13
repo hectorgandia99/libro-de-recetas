@@ -9,7 +9,7 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 240 g de espaguetis
 - 40 g de piñones (o anacardos/almendras)
 - 1 diente de ajo pequeño
 - Una pizca de sal
@@ -17,7 +17,7 @@ tags: [pasta, italiana, alta en proteína]
 - 40 g de parmesano rallado
 - 30 g de hojas de albahaca fresca
 - 2 cucharadas de aceite de oliva virgen extra
-- 260 g de pechuga de pollo (2 pechugas medianas), a la plancha
+- 170 g de pechuga de pollo (1-2 pechugas pequeñas), a la plancha
 
 ## Pasos
 
@@ -30,8 +30,8 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: se añaden 260 g de pechuga de pollo a la plancha, ya que el pesto por sí solo se queda corto en proteína.
+Adaptado a tu plan de volumen: se añade pechuga de pollo a la plancha, ya que el pesto por sí solo se queda corto en proteína.
 
-Información nutricional aproximada por ración: **915 kcal · 64 g proteína · 36 g grasa · 82 g carbohidrato**. Encaja bien como comida en un día de entreno (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~893 kcal · 46 g proteína · 36 g grasa · 97 g carbohidrato**. Punto intermedio entre comida (830 kcal/14 g grasa/132 g carbohidrato) y cena (775 kcal/17.5 g grasa/110 g carbohidrato): la grasa se queda alta a propósito (piñones, parmesano y aceite son el pesto, no se puede bajar sin dejar de ser pesto) — compénsalo con un resto de día algo más ligero en grasa. El carbohidrato queda algo corto porque subir más la pasta dispararía las kcal de un plato ya graso.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste (sustituye a la receta de ejemplo que tenía este mismo hueco).

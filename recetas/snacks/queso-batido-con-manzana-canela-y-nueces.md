@@ -9,9 +9,9 @@ tags: [pre-cama, alta en proteína, rápido]
 
 ## Ingredientes
 
-- 250 g de queso fresco batido 0 %
-- 1 manzana (unos 180 g)
-- 10 g de nueces
+- 230 g de queso fresco batido 0 %
+- 1/2 manzana (unos 90 g)
+- 22 g de nueces
 - Canela al gusto
 - Unas gotas de extracto de vainilla o edulcorante (opcional)
 
@@ -23,12 +23,10 @@ tags: [pre-cama, alta en proteína, rápido]
 
 ## Notas
 
-Ajustado a tu plan de nutrición para la toma de **pre-cama** (~10 % del día).
+Ajustado a tu plan de nutrición para la toma de **pre-cama**.
 
-Información nutricional aproximada por ración: **300 kcal · 27 g proteína · 8 g grasa · 36 g carbohidrato**. Encaja como toma de antes de dormir en un día de entreno (objetivo orientativo: ~310 kcal · 20 g proteína · 8 g grasa · 38 g carbohidrato).
+Información nutricional aproximada por ración: **320 kcal · 27 g proteína · 16 g grasa · 24 g carbohidrato**. Encaja como toma de antes de dormir (objetivo: ~320 kcal · 26 g proteína · 14 g grasa · 22 g carbohidrato) — el queso batido es de digestión lenta y alimenta la recuperación durante la noche, y ahora lleva más nueces para subir la grasa de esta toma. Si te cuadra justo el total de proteína del día, recorta un poco en la comida o la cena.
 
-La proteína va algo por encima del 10 % del día a propósito: el queso batido es de digestión lenta y alimenta la recuperación durante la noche. Si te cuadra justo el total de proteína del día, recorta un poco en la comida o la cena.
-
-Día de descanso (~280 kcal): usa media manzana.
+Día de descanso (~280 kcal): quita las nueces.
 
 La manzana asada 8-10 minutos con la canela lo convierte en un postre caliente sin cambiar los macros.

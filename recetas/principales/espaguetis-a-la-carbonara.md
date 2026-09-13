@@ -9,10 +9,10 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 240 g de espaguetis
 - 80 g de guanciale en cubos (o bacon, si no lo encuentras)
 - 2 huevos enteros
-- 3 yemas de huevo
+- 4 yemas de huevo
 - 60 g de pecorino romano rallado
 - Pimienta negra recién molida, abundante
 
@@ -27,8 +27,8 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: se reduce un poco el guanciale respecto a la receta original (de una loncha gruesa por ración a 80 g en total) para no disparar la grasa, y se sube ligeramente el huevo y el pecorino para mantener la proteína alta.
+Adaptado a tu plan de volumen: se reduce un poco el guanciale respecto a la receta original (de una loncha gruesa por ración a 80 g en total) para no disparar la grasa, y se sube el huevo y el pecorino para mantener la proteína alta.
 
-Información nutricional aproximada por ración: **915 kcal · 39 g proteína · 48 g grasa · 80 g carbohidrato**. Encaja bien como comida en un día de entreno, aunque al ser un plato graso conviene que el resto del día sea algo más ligero en grasa (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~1040 kcal · 44 g proteína · 53 g grasa · 95 g carbohidrato**. Punto intermedio entre comida y cena — al ser un plato muy graso por naturaleza (guanciale + yema + pecorino), la grasa se queda bien por encima del objetivo a propósito: conviene que el resto del día sea claramente más ligero en grasa para compensar.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

@@ -9,14 +9,14 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 260 g de espaguetis
 - 2 cucharadas de aceite de oliva virgen extra
 - 4-5 filetes de anchoa, picados
 - 60 g de aceitunas negras, picadas
 - 20 g de alcaparras
 - 1 diente de ajo, picado
 - 300 g de tomate triturado
-- 160 g de atún en aceite de oliva, escurrido
+- 180 g de atún en aceite de oliva, escurrido
 - Perejil picado
 
 ## Pasos
@@ -32,6 +32,6 @@ tags: [pasta, italiana, alta en proteína]
 
 Adaptado a tu plan de volumen: se añade atún en aceite de oliva (un ingrediente muy mediterráneo que combina bien con anchoas y alcaparras) para subir bastante la proteína, ya que la puttanesca original se queda algo corta en ese apartado.
 
-Información nutricional aproximada por ración: **739 kcal · 40 g proteína · 24 g grasa · 90 g carbohidrato**. Encaja bien como comida en un día de descanso (objetivo orientativo: ~840 kcal) o como cena en un día de entreno.
+Información nutricional aproximada por ración: **~920 kcal · 50 g proteína · 26 g grasa · 120 g carbohidrato**. Punto intermedio entre comida y cena.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

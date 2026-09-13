@@ -9,13 +9,13 @@ tags: [pasta, italiana, picante, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 260 g de espaguetis
 - 2 cucharadas de aceite de oliva virgen extra
 - 1 diente de ajo laminado
 - 2 cucharaditas de chile seco en copos (peperoncino), o al gusto
 - 300 g de tomate triturado
 - 40 g de parmesano rallado
-- 260 g de pechuga de pollo (2 pechugas medianas)
+- 175 g de pechuga de pollo (1-2 pechugas pequeñas)
 - Perejil fresco picado
 - Sal
 
@@ -29,8 +29,8 @@ tags: [pasta, italiana, picante, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: al ser una variante de la pomodoro (solo tomate y picante), se añaden 260 g de pechuga de pollo a la plancha para elevar la proteína del plato.
+Adaptado a tu plan de volumen: al ser una variante de la pomodoro (solo tomate y picante), se añade pechuga de pollo a la plancha para elevar la proteína del plato.
 
-Información nutricional aproximada por ración: **829 kcal · 64 g proteína · 23 g grasa · 88 g carbohidrato**. Encaja bien como comida en un día de entreno (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~885 kcal · 50 g proteína · 23 g grasa · 118 g carbohidrato**. Punto intermedio razonable entre comida (830 kcal/14 g grasa/132 g carbohidrato) y cena (775 kcal/17.5 g grasa/110 g carbohidrato).
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

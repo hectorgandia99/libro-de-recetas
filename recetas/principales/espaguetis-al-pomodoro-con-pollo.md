@@ -9,13 +9,13 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis (pasta extruida en bronce si puedes conseguirla)
+- 260 g de espaguetis (pasta extruida en bronce si puedes conseguirla)
 - 2 cucharadas de aceite de oliva virgen extra
 - 1 diente de ajo laminado
 - 300 g de tomate triturado
 - 1 ramillete de albahaca fresca
 - 50 g de parmesano rallado
-- 260 g de pechuga de pollo (2 pechugas medianas)
+- 170 g de pechuga de pollo (1-2 pechugas pequeñas)
 - Sal y pimienta
 
 ## Pasos
@@ -30,8 +30,8 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: la receta original es solo salsa de tomate, así que se añaden 260 g de pechuga de pollo a la plancha y se sube el parmesano para que el plato tenga suficiente proteína, y se ajusta la pasta a 110 g por persona.
+Adaptado a tu plan de volumen: la receta original es solo salsa de tomate, así que se añade pechuga de pollo a la plancha y se sube el parmesano para que el plato tenga suficiente proteína.
 
-Información nutricional aproximada por ración: **850 kcal · 66 g proteína · 24 g grasa · 88 g carbohidrato**. Encaja bien como comida en un día de entreno (objetivo orientativo de esa comida: ~930 kcal).
+Información nutricional aproximada por ración: **~900 kcal · 50 g proteína · 24 g grasa · 118 g carbohidrato**. Punto intermedio entre comida y cena.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

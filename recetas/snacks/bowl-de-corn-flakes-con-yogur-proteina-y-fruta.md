@@ -9,9 +9,9 @@ tags: [merienda, alta en proteína, rápido]
 
 ## Ingredientes
 
-- 45 g de corn flakes (sin azúcar añadido)
-- 150 g de yogur griego natural
-- 15 g de proteína en polvo
+- 65 g de corn flakes (sin azúcar añadido)
+- 120 g de yogur griego natural
+- 11 g de proteína en polvo
 - 1 plátano mediano (unos 120 g pelado), u otra fruta troceada
 
 ## Pasos
@@ -22,9 +22,9 @@ tags: [merienda, alta en proteína, rápido]
 
 ## Notas
 
-Ajustado a tu plan de nutrición para la toma de **merienda / pre-entreno** (~15 % del día).
+Ajustado a tu plan de nutrición para la toma de **merienda / pre-entreno**.
 
-Información nutricional aproximada por ración: **480 kcal · 30 g proteína · 9 g grasa · 72 g carbohidrato**. Encaja como merienda en un día de entreno (objetivo orientativo: ~465 kcal · 27 g proteína · 10 g grasa · 66 g carbohidrato).
+Información nutricional aproximada por ración: **508 kcal · 26 g proteína · 8 g grasa · 87 g carbohidrato**. Encaja como merienda (objetivo: ~520 kcal · 26 g proteína · 7 g grasa · 88 g carbohidrato).
 
 Día de descanso (~420 kcal): baja los corn flakes a 30 g.
 

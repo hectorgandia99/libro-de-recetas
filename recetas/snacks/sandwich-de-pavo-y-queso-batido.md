@@ -9,12 +9,12 @@ tags: [merienda, alta en proteína, rápido]
 
 ## Ingredientes
 
-- 100 g de pan integral (2 rebanadas)
-- 70 g de pechuga de pavo en lonchas
+- 140 g de pan integral (2-3 rebanadas)
+- 50 g de pechuga de pavo en lonchas
 - 70 g de queso fresco batido 0 %
 - 1 tomate en rodajas y unas hojas de lechuga
-- 5 g de aceite de oliva virgen extra
-- 150 g de fruta (kiwi, mandarina, manzana…)
+- 2 g de aceite de oliva virgen extra
+- 170 g de fruta (kiwi, mandarina, manzana…)
 - Sal, pimienta y orégano
 
 ## Pasos
@@ -25,9 +25,9 @@ tags: [merienda, alta en proteína, rápido]
 
 ## Notas
 
-Ajustado a tu plan de nutrición para la toma de **merienda / pre-entreno** (~15 % del día).
+Ajustado a tu plan de nutrición para la toma de **merienda / pre-entreno**.
 
-Información nutricional aproximada por ración: **495 kcal · 31 g proteína · 9 g grasa · 68 g carbohidrato**. Encaja como merienda en un día de entreno (objetivo orientativo: ~465 kcal · 27 g proteína · 10 g grasa · 66 g carbohidrato).
+Información nutricional aproximada por ración: **550 kcal · 30 g proteína · 7 g grasa · 88 g carbohidrato**. Encaja como merienda (objetivo: ~520 kcal · 26 g proteína · 7 g grasa · 88 g carbohidrato) — algo más de pan que antes para subir el carbohidrato y bajar la grasa, menos pavo y casi sin aceite.
 
 Día de descanso (~420 kcal): quita el aceite y usa 100 g de fruta.
 

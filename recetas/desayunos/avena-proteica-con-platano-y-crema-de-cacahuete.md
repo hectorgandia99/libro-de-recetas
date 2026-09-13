@@ -9,12 +9,12 @@ tags: [desayuno, alta en proteína, rápido]
 
 ## Ingredientes
 
-- 70 g de copos de avena
+- 77 g de copos de avena
 - 150 ml de leche desnatada
 - 100 ml de agua
-- 25 g de proteína en polvo (sabor neutro, vainilla o chocolate)
+- 20 g de proteína en polvo (sabor neutro, vainilla o chocolate)
 - 1 plátano mediano (unos 120 g pelado)
-- 15 g de crema de cacahuete
+- 23 g de crema de cacahuete
 - Canela al gusto
 
 ## Pasos
@@ -26,9 +26,9 @@ tags: [desayuno, alta en proteína, rápido]
 
 ## Notas
 
-Ajustado a tu plan de nutrición para la toma de **desayuno** (~20 % del día).
+Ajustado a tu plan de nutrición para la toma de **desayuno**.
 
-Información nutricional aproximada por ración: **615 kcal · 39 g proteína · 14 g grasa · 82 g carbohidrato**. Encaja como desayuno en un día de entreno (objetivo orientativo: ~620 kcal · 36 g proteína · 14 g grasa · 88 g carbohidrato).
+Información nutricional aproximada por ración: **670 kcal · 38 g proteína · 18 g grasa · 88 g carbohidrato**. Encaja como desayuno (objetivo: ~650 kcal · 35 g proteína · 17.5 g grasa · 88 g carbohidrato).
 
 Día de descanso (~560 kcal): usa medio plátano en vez de entero, o baja la avena a 55 g.
 

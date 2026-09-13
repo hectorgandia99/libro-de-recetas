@@ -15,8 +15,8 @@ tags: [pasta, italiana, alta en proteína]
 - 60 g de cebolla picada fina
 - 60 g de zanahoria picada fina
 - 30 g de apio picado fino
-- 125 g de carne picada de cerdo
-- 150 g de carne picada de ternera
+- 90 g de carne picada de cerdo
+- 110 g de carne picada de ternera
 - Sal
 - 1 cucharadita de concentrado de tomate
 - 80 ml de vino blanco
@@ -41,8 +41,8 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: se reduce un poco la panceta y la carne total respecto a la receta original para no disparar demasiado la grasa, manteniendo buena proteína gracias a la carne.
+Adaptado a tu plan de volumen: se reduce la panceta y la carne total respecto a la receta original para acercar la proteína al objetivo sin disparar demasiado la grasa.
 
-Información nutricional aproximada por ración: **1094 kcal · 58 g proteína · 49 g grasa · 95 g carbohidrato**. Es la más calórica de todas: encaja bien como cena en un día de entreno, o como comida principal si ese día entrenas fuerte (objetivo orientativo de la cena en día de entreno: ~775 kcal — si te queda corto, esta la supera con margen).
+Información nutricional aproximada por ración: **~965 kcal · 44 g proteína · 42 g grasa · 95 g carbohidrato**. Sigue siendo de las más calóricas y grasas del lote (carne + panceta + parmesano) — encaja mejor en un día en que el resto de comidas sean más ligeras en grasa para compensar.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

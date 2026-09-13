@@ -11,9 +11,9 @@ tags: [pre-cama, alta en proteína]
 
 - 20 g de caseína en polvo (o proteína de digestión lenta)
 - 120 ml de leche desnatada
-- 25 g de copos de avena finos (o crema de arroz)
-- 10 g de crema de cacahuete
-- 80 g de arándanos
+- 10 g de copos de avena finos (o crema de arroz)
+- 25 g de crema de cacahuete
+- 30 g de arándanos
 - Canela al gusto
 
 ## Pasos
@@ -24,10 +24,8 @@ tags: [pre-cama, alta en proteína]
 
 ## Notas
 
-Ajustado a tu plan de nutrición para la toma de **pre-cama** (~10 % del día).
+Ajustado a tu plan de nutrición para la toma de **pre-cama**.
 
-Información nutricional aproximada por ración: **315 kcal · 26 g proteína · 9 g grasa · 36 g carbohidrato**. Encaja como toma de antes de dormir en un día de entreno (objetivo orientativo: ~310 kcal · 20 g proteína · 8 g grasa · 38 g carbohidrato).
-
-La proteína va algo por encima del 10 % del día a propósito: la caseína de antes de dormir alimenta la recuperación durante la noche. Si te cuadra justo el total de proteína del día, recorta un poco en la comida o la cena.
+Información nutricional aproximada por ración: **315 kcal · 27 g proteína · 15 g grasa · 22 g carbohidrato**. Encaja como toma de antes de dormir (objetivo: ~320 kcal · 26 g proteína · 14 g grasa · 22 g carbohidrato) — la caseína de antes de dormir alimenta la recuperación durante la noche, por eso esta toma pesa más en proteína y grasa que en carbohidrato.
 
 Día de descanso (~280 kcal): quita la crema de cacahuete.

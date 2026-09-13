@@ -9,7 +9,7 @@ tags: [pasta, italiana, setas, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 260 g de espaguetis
 - 2 cucharadas de aceite de oliva virgen extra
 - 300 g de setas variadas, en rodajas y trozos gruesos
 - Sal
@@ -21,7 +21,7 @@ tags: [pasta, italiana, setas, alta en proteína]
 - 30 ml de vino blanco (o jerez)
 - 1 nuez de mantequilla
 - 40 g de parmesano rallado
-- 220 g de pechuga de pollo (2 pechugas pequeñas), en tiras
+- 150 g de pechuga de pollo (1 pechuga pequeña), en tiras
 - Perejil picado
 
 ## Pasos
@@ -36,8 +36,8 @@ tags: [pasta, italiana, setas, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: se añaden 220 g de pechuga de pollo (una combinación muy clásica con las setas) para que el plato tenga bastante más proteína que la versión original, que solo lleva setas y queso.
+Adaptado a tu plan de volumen: se añade pechuga de pollo (una combinación muy clásica con las setas) para que el plato tenga bastante más proteína que la versión original, que solo lleva setas y queso.
 
-Información nutricional aproximada por ración: **847 kcal · 63 g proteína · 28 g grasa · 85 g carbohidrato**. Encaja bien como comida en un día de entreno (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~918 kcal · 52 g proteína · 28 g grasa · 115 g carbohidrato**. Punto intermedio entre comida y cena.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

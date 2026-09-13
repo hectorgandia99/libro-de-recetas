@@ -9,16 +9,16 @@ tags: [pasta, italiana, marisco, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 260 g de espaguetis
 - 3 cucharadas de aceite de oliva virgen extra
 - 1 chalota picada
 - 1 diente de ajo laminado
 - Chile seco en copos, al gusto
-- 200 g de almejas (en agua con sal 1-2 horas antes)
-- 200 g de mejillones de roca
+- 150 g de almejas (en agua con sal 1-2 horas antes)
+- 150 g de mejillones de roca
 - 40 ml de vino blanco
-- 100 g de calamar troceado
-- 100 g de gambas peladas
+- 70 g de calamar troceado
+- 70 g de gambas peladas
 - 4 tomates cherry cortados por la mitad
 - Perejil picado
 
@@ -33,8 +33,8 @@ tags: [pasta, italiana, marisco, alta en proteína]
 
 ## Notas
 
-Esta receta ya es naturalmente muy alta en proteína y moderada en grasa gracias al marisco, así que se mantiene muy fiel al original, solo con cantidades ajustadas a una ración generosa.
+Esta receta ya es naturalmente muy alta en proteína gracias al marisco — se recorta algo la cantidad total respecto al original, pero sin vaciarla del todo (es lo que la hace buena después de entrenar).
 
-Información nutricional aproximada por ración: **958 kcal · 82 g proteína · 24 g grasa · 93 g carbohidrato**. Es de las mejores opciones del lote para después de entrenar: encaja muy bien como comida en un día de entreno (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~860 kcal · 60 g proteína · 23 g grasa · 120 g carbohidrato**. Sigue siendo de las mejores opciones del lote para después de entrenar — la proteína se queda por encima del objetivo a propósito, es marisco, no hace falta forzarla más abajo.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

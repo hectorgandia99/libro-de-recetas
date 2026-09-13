@@ -9,14 +9,14 @@ tags: [pasta, italiana, marisco, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 260 g de espaguetis
 - 3 cucharadas de aceite de oliva virgen extra
 - 2 dientes de ajo laminados
 - Chile seco en copos, al gusto
 - 2 tallos de perejil, más un puñado picado para terminar
 - 8 tomates cherry cortados por la mitad
 - 60 ml de vino blanco
-- 500 g de almejas (déjalas en agua con sal 1-2 horas antes para que suelten la arenilla)
+- 380 g de almejas (déjalas en agua con sal 1-2 horas antes para que suelten la arenilla)
 
 ## Pasos
 
@@ -29,8 +29,8 @@ tags: [pasta, italiana, marisco, alta en proteína]
 
 ## Notas
 
-Esta receta ya es naturalmente muy alta en proteína y baja en grasa gracias a las almejas, así que se mantiene prácticamente igual que en el vídeo — solo se ajusta la ración de pasta a 110 g por persona.
+Esta receta ya es naturalmente muy alta en proteína gracias a las almejas — se reduce algo la cantidad respecto al vídeo original, pero sin forzarla a bajar del todo (sería quitarle lo que la hace buena).
 
-Información nutricional aproximada por ración: **921 kcal · 74 g proteína · 22 g grasa · 92 g carbohidrato**. Encaja muy bien como comida en un día de entreno, sobre todo después de entrenar (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~945 kcal · 55 g proteína · 21 g grasa · 120 g carbohidrato**. Punto intermedio entre comida y cena; la proteína se queda algo por encima a propósito, igual que se deja la grasa alta en los platos de guanciale — es lo que trae el marisco.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

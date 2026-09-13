@@ -9,9 +9,9 @@ tags: [pasta, italiana, rápido]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 250 g de espaguetis
 - 8 g de pimienta negra recién molida (abundante)
-- 80 g de pecorino romano rallado muy fino
+- 95 g de pecorino romano rallado muy fino
 - 2 huevos (para escalfar, uno por ración)
 
 ## Pasos
@@ -26,6 +26,6 @@ tags: [pasta, italiana, rápido]
 
 Adaptado a tu plan de volumen: la receta original es solo pasta, queso y pimienta, así que se añade un huevo escalfado por ración para subir algo la proteína — no es tradicional, pero es un añadido habitual en versiones caseras y no rompe el plato.
 
-Información nutricional aproximada por ración: **620 kcal · 31 g proteína · 19 g grasa · 80 g carbohidrato**. Al ser más ligera que el resto, encaja mejor como cena en un día de descanso (objetivo orientativo de la cena: ~700 kcal) que como comida principal de un día de entreno.
+Información nutricional aproximada por ración: **~787 kcal · 40 g proteína · 24 g grasa · 103 g carbohidrato**. Al ser más ligera que el resto, es la que mejor encaja específicamente como **cena** (objetivo: 775 kcal / 44 g proteína / 17.5 g grasa / 110 g carbohidrato) en vez del punto intermedio genérico del resto de principales.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

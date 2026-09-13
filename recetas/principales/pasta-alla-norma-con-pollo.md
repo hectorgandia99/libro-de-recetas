@@ -9,7 +9,7 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 250 g de espaguetis
 - 35 g de aceite de oliva virgen extra (para dorar la berenjena)
 - 300 g de berenjena (mejor variedad japonesa, en rodajas)
 - 2 dientes de ajo laminados
@@ -19,7 +19,7 @@ tags: [pasta, italiana, alta en proteína]
 - 250 g de tomate triturado
 - 40 g de pecorino romano rallado
 - Albahaca fresca
-- 220 g de pechuga de pollo (2 pechugas pequeñas)
+- 160 g de pechuga de pollo (1 pechuga pequeña)
 - Sal
 
 ## Pasos
@@ -33,8 +33,8 @@ tags: [pasta, italiana, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: se añaden 220 g de pechuga de pollo a la plancha, ya que el plato original (berenjena y tomate) es bastante bajo en proteína.
+Adaptado a tu plan de volumen: se añade pechuga de pollo a la plancha, ya que el plato original (berenjena y tomate) es bastante bajo en proteína.
 
-Información nutricional aproximada por ración: **892 kcal · 57 g proteína · 30 g grasa · 97 g carbohidrato**. Encaja bien como comida en un día de entreno (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~937 kcal · 47 g proteína · 30 g grasa · 120 g carbohidrato**. Punto intermedio entre comida y cena.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

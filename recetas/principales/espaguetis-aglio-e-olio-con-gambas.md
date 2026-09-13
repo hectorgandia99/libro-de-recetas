@@ -9,11 +9,11 @@ tags: [pasta, italiana, rápido, alta en proteína]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 280 g de espaguetis
 - 35 g de aceite de oliva virgen extra
 - 3 dientes de ajo laminados
 - Chile seco en copos, al gusto (opcional)
-- 300 g de gambas peladas
+- 260 g de gambas peladas
 - Perejil fresco picado, abundante
 
 ## Pasos
@@ -26,8 +26,8 @@ tags: [pasta, italiana, rápido, alta en proteína]
 
 ## Notas
 
-Adaptado a tu plan de volumen: se añaden 300 g de gambas (una variante muy clásica del aglio e olio) para que el plato, que originalmente es solo pasta, ajo y aceite, tenga una buena cantidad de proteína.
+Adaptado a tu plan de volumen: se añaden gambas (una variante muy clásica del aglio e olio) para que el plato, que originalmente es solo pasta, ajo y aceite, tenga una buena cantidad de proteína.
 
-Información nutricional aproximada por ración: **697 kcal · 50 g proteína · 20 g grasa · 79 g carbohidrato**. Encaja bien como cena en un día de entreno (objetivo orientativo: ~775 kcal) o como comida en un día de descanso.
+Información nutricional aproximada por ración: **~875 kcal · 50 g proteína · 20 g grasa · 123 g carbohidrato**. Punto intermedio entre comida y cena.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

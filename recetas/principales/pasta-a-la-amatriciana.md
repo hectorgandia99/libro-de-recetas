@@ -9,11 +9,11 @@ tags: [pasta, italiana]
 
 ## Ingredientes
 
-- 220 g de espaguetis
+- 260 g de espaguetis
 - 110 g de guanciale en cubos
 - 30 ml de vino blanco
 - 250 g de tomate triturado (o pasata)
-- 60 g de pecorino romano rallado
+- 80 g de pecorino romano rallado
 - Pimienta negra, al gusto
 
 ## Pasos
@@ -26,8 +26,8 @@ tags: [pasta, italiana]
 
 ## Notas
 
-Se mantiene fiel a la receta original — solo se sube un poco el pecorino para reforzar algo la proteína.
+Se mantiene fiel a la receta original — se sube el pecorino para reforzar la proteína y algo la pasta para el carbohidrato.
 
-Información nutricional aproximada por ración: **910 kcal · 32 g proteína · 46 g grasa · 87 g carbohidrato**. Al ser un plato bastante graso, encaja mejor como comida en un día de entreno con el resto de comidas algo más ligeras (objetivo orientativo: ~930 kcal).
+Información nutricional aproximada por ración: **~1130 kcal · 44 g proteína · 52 g grasa · 117 g carbohidrato**. Plato bastante graso por el guanciale y el pecorino — la grasa se queda bien por encima del objetivo a propósito, compénsalo con el resto del día más ligero en grasa.
 
 Receta base adaptada del vídeo de 14 pastas clásicas italianas que me pasaste.

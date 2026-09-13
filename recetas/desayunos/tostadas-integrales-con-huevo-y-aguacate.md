@@ -12,8 +12,8 @@ tags: [desayuno, alta en proteína]
 - 130 g de pan integral (2 rebanadas grandes)
 - 1 huevo entero
 - 4 claras de huevo (unos 130 g, o 130 ml de claras pasteurizadas)
-- 25 g de aguacate
-- 1 plátano o 150 g de fruta de temporada
+- 45 g de aguacate
+- 1 plátano o 170 g de fruta de temporada
 - Sal, pimienta y un poco de cebollino (opcional)
 
 ## Pasos
@@ -26,9 +26,9 @@ tags: [desayuno, alta en proteína]
 
 ## Notas
 
-Ajustado a tu plan de nutrición para la toma de **desayuno** (~20 % del día).
+Ajustado a tu plan de nutrición para la toma de **desayuno**.
 
-Información nutricional aproximada por ración: **620 kcal · 34 g proteína · 14 g grasa · 84 g carbohidrato**. Encaja como desayuno en un día de entreno (objetivo orientativo: ~620 kcal · 36 g proteína · 14 g grasa · 88 g carbohidrato).
+Información nutricional aproximada por ración: **662 kcal · 34 g proteína · 17 g grasa · 88 g carbohidrato**. Encaja como desayuno (objetivo: ~650 kcal · 35 g proteína · 17.5 g grasa · 88 g carbohidrato).
 
 Día de descanso (~560 kcal): quita la fruta de acompañamiento, o baja el pan a 100 g.
 
