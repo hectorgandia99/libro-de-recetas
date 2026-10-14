@@ -32,3 +32,5 @@ tags: [calamar, frito, madrileño]
 La mezcla de harina de trigo y garbanzo es lo que le da el extra de crujiente, sin necesitar nada más. El bocadillo tradicional no lleva mayonesa ni salsa brava, pero queda de maravilla con ella — si no te convence, sáltatela sin problema.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por ración: **~770 kcal · 39 g proteína · 28 g grasa · 89 g carbohidrato**. Supone media barra (~125 g), unos 12 g de aceite absorbido en la fritura y 1 cucharada de mayonesa; sin mayonesa, unas 100 kcal y 11 g de grasa menos.

@@ -22,3 +22,5 @@ tags: [dulce, frío, rápido]
 ## Notas
 
 Con mermelada casera no tiene nada que ver con la industrial — si nunca la has hecho, merece la pena probarlo al menos una vez. El sándwich en sí es casi de un minuto si ya tienes la mermelada lista.
+
+Información nutricional aproximada por ración: **~430 kcal · 13 g proteína · 18 g grasa · 54 g carbohidrato**. Supone 2 cucharadas de mantequilla de cacahuete (~32 g) y 30 g de mermelada.

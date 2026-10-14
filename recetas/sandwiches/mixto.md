@@ -26,3 +26,5 @@ tags: [clásico, caliente, jamón, queso]
 ## Notas
 
 El paso del peso encima es el que marca la diferencia entre un mixto normal y uno bueno: costra crujiente por fuera, jugoso por dentro. El gruyère combina especialmente bien con el jamón cocido.
+
+Información nutricional aproximada por ración: **~565 kcal · 34 g proteína · 33 g grasa · 31 g carbohidrato**. Supone 4 lonchas de jamón cocido (~80 g), 50 g de gruyère y 15 g de mantequilla.

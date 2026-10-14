@@ -27,3 +27,5 @@ tags: [frío, salmón, huevo]
 ## Notas
 
 Salmón, mayonesa, huevo y encurtidos es una combinación segura donde las haya. El vinagre le da un extra de acidez que lo levanta.
+
+Información nutricional aproximada por ración: **~580 kcal · 29 g proteína · 37 g grasa · 32 g carbohidrato**.

@@ -26,3 +26,5 @@ tags: [clásico, bacon]
 ## Notas
 
 El BLT es, ante todo, un sándwich de tomate — cuanto mejor sea el tomate, mejor el sándwich. Tiene que quedar jugoso y crujiente a la vez.
+
+Información nutricional aproximada por ración: **~510 kcal · 18 g proteína · 32 g grasa · 35 g carbohidrato**. Supone 4 lonchas de bacon (~60 g), pan de molde, 1 cucharada de mayonesa y una cucharadita de aceite.

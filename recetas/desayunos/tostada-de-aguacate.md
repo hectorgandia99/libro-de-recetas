@@ -26,3 +26,5 @@ tags: [rápido]
 ## Notas
 
 Para escalfarlo: agua a punto de hervor, un chorro de vinagre, remolino con la cuchara y el huevo dentro 3 minutos.
+
+Información nutricional aproximada por ración: **~370 kcal · 12 g proteína · 22 g grasa · 32 g carbohidrato**. Supone una rebanada de masa madre de ~50 g y una cucharadita de aceite. Como desayuno del plan de volumen se queda corta (objetivo ~650 kcal): haz dos tostadas con dos huevos.

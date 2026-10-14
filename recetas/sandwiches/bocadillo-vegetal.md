@@ -27,3 +27,5 @@ tags: [vegetal, huevo, encurtidos, frío]
 Es un bocadillo poco valorado porque casi siempre se le añade atún o similar sin necesidad — con un buen tomate maduro y buenos encurtidos no le hace falta nada más.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por ración: **~555 kcal · 18 g proteína · 22 g grasa · 70 g carbohidrato**. Supone media barra (~125 g) y unos 20 g de mayonesa.

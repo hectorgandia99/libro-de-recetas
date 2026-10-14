@@ -31,3 +31,5 @@ tags: [ternera, solomillo, queso, clásico]
 Capas finas de mostaza y sofrito, no más — si te pasas, tapan el sabor del solomillo, que es el protagonista absoluto.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por ración: **~915 kcal · 62 g proteína · 41 g grasa · 72 g carbohidrato**. Supone media barra (~125 g), 200 g de solomillo, 30 g de cheddar y unos 15 g de aceite entre la sartén y el sofrito.

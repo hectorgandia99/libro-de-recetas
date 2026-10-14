@@ -26,3 +26,5 @@ tags: [clásico, jamón, tomate, frío]
 El bocadillo más famoso de España y el más simple de todos: apenas necesita receta, pero no podía faltar. Tomate maduro y jamón ibérico son dos de los ingredientes más umami que hay — juntos no fallan.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por ración: **~610 kcal · 27 g proteína · 26 g grasa · 66 g carbohidrato**. Supone media barra (~125 g), 50 g de jamón ibérico y 1 cucharada de aceite.

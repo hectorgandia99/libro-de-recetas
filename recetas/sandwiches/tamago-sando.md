@@ -27,3 +27,5 @@ tags: [japonés, frío, huevo]
 ## Notas
 
 Un clásico de las tiendas de conveniencia japonesas. Parece muy simple (huevo con huevo y mayonesa) pero la textura cremosa lo hace mucho mejor de lo que suena.
+
+Información nutricional aproximada por ración: **~655 kcal · 25 g proteína · 47 g grasa · 32 g carbohidrato**.

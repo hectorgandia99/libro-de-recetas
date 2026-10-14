@@ -29,3 +29,5 @@ tags: [caliente, pollo, curry, bacon]
 ## Notas
 
 Aunque se llama "de pollo al curry", el bacon es casi el protagonista del sabor. El curry queda sutil pero presente — resultado muy cremoso.
+
+Información nutricional aproximada por ración: **~935 kcal · 51 g proteína · 67 g grasa · 30 g carbohidrato**. Supone 2 contramuslos sin piel (~200 g) y 10 g de aceite. El bacon y la mayonesa disparan la grasa: el resto del día conviene más ligero.

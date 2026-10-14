@@ -34,3 +34,5 @@ tags: [tortilla, patata, clásico, para llevar]
 Lo mejor de este bocadillo es que se puede preparar con mucha antelación — incluso mejora con el reposo. Ideal para llevar.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por bocadillo: **~870 kcal · 27 g proteína · 41 g grasa · 96 g carbohidrato**. Por bocadillo (1/4 de la tortilla, con un trozo de pan de ~100 g); supone unos 25 g de aceite absorbido por ración en el confitado.

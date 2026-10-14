@@ -28,3 +28,5 @@ tags: [japonés, caliente, pollo, empanado]
 ## Notas
 
 Se puede comer frío o a temperatura ambiente. El repollo crudo aporta un crujiente que pocas verduras consiguen igual — no lo subestimes. Si te sobra pollo empanado de otro día, este sándwich es la excusa perfecta.
+
+Información nutricional aproximada por ración: **~660 kcal · 46 g proteína · 28 g grasa · 55 g carbohidrato**. Supone un filete de pollo de ~150 g, 30 g de panko y unos 15 g de aceite absorbido.

@@ -29,3 +29,5 @@ tags: [caliente, atún, queso]
 ## Notas
 
 La combinación de ensaladilla de atún con queso fundido puede sonar rara si no la has probado, pero es una debilidad para mucha gente en EE. UU. — merece una oportunidad.
+
+Información nutricional aproximada por ración: **~885 kcal · 52 g proteína · 60 g grasa · 32 g carbohidrato**. Supone atún en aceite escurrido; con atún al natural, unas 120 kcal y 13 g de grasa menos.

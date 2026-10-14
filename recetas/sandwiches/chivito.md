@@ -33,3 +33,5 @@ tags: [cerdo, bacon, huevo, queso]
 Comparte muchos ingredientes con el campero, pero cambia la proteína (solomillo de cerdo en vez de pollo) y suma queso fundido.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por ración: **~1000 kcal · 63 g proteína · 57 g grasa · 55 g carbohidrato**. Supone un mollete de ~100 g, 150 g de solomillo de cerdo, 2 lonchas de cheddar (~40 g), bacon, huevo frito, 1 cucharada de mayonesa y 10 g de mantequilla.

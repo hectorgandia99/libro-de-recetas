@@ -32,3 +32,5 @@ tags: [pollo, jamón, bacon, huevo, malagueño]
 La clave de un buen campero es el contraste: exterior crujiente por el tostado con mantequilla y peso, interior muy jugoso gracias a los jugos de la yema, el tomate y la lechuga mezclándose con el resto.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por ración: **~870 kcal · 64 g proteína · 43 g grasa · 55 g carbohidrato**. Supone un mollete de ~100 g, 150 g de pechuga, 2 lonchas de jamón cocido, 2 de bacon, el huevo frito, 1 cucharada de mayonesa y 10 g de mantequilla.

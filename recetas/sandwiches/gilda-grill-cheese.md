@@ -28,3 +28,5 @@ tags: [caliente, queso, picante]
 ## Notas
 
 Mejor que un grill cheese normal: el ácido y el picante de la gilda cortan la grasa del queso fundido. Receta inspirada en Paula Casado.
+
+Información nutricional aproximada por ración: **~600 kcal · 25 g proteína · 40 g grasa · 31 g carbohidrato**. Supone unos 60 g de queso y 15 g de mantequilla en total.

@@ -29,3 +29,5 @@ tags: [cerdo, jamón, frito, andaluz]
 El sabor de este bocadillo viene sobre todo del tomate, el pimiento y el jamón — el lomo no se apodera de nada, simplemente está ahí de fondo dejando brillar al resto.
 
 Adaptado del vídeo de los 8 bocadillos más populares de España que me pasaste.
+
+Información nutricional aproximada por ración: **~805 kcal · 47 g proteína · 38 g grasa · 69 g carbohidrato**. Supone media barra (~125 g), un filete de lomo de ~120 g, 30 g de jamón ibérico y unos 20 g de aceite en total.
